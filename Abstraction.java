@@ -32,7 +32,6 @@ public class Abstraction {
         Dog dog = new doggerman();
         dog.eat();
         dog.sleep();
-        
         dog.makeSound();
     }
 }
