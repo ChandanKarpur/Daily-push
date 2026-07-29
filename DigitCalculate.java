@@ -3,7 +3,7 @@ public class DigitCalculate {
         int temp=0;
         for(int i=1;i<=n;i++){
             int number = i;
-            int count = 0;
+            int count =0;
 
             while(number > 0) {
                 number /= 10;
