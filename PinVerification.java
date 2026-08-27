@@ -38,7 +38,6 @@ public class PinVerification {
         if (!access) {
             System.out.println("Account temporarily locked.");
         }
-
         sc.close();
     }
 }
