@@ -39,7 +39,6 @@ public class InterestCalculator {
             System.out.println("Compound Interest  :" + ci);
             System.out.println("Compound Amount    :" + (principal + ci));
         }
-
         sc.close();
     }
 }
