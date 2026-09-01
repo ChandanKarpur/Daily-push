@@ -19,9 +19,7 @@ public class RotateArray {
 
         System.out.print("Enter rotation value d: ");
         int d = sc.nextInt();
-
         d = d % n;
-
         // Left rotation
         for (int r = 0; r < d; r++) {
 
