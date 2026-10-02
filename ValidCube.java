@@ -1,12 +1,8 @@
 import java.util.Scanner;
-public class ValidSquare {
-    public boolean isPerfectSquare(int num) {
-        if (num < 0) {
-            return false;
-        }
-        for (int i = 1; i <= num / i; i++) {
-
-            if (i * i == num) {
+public class ValidCube {
+    public boolean isPerfectSquare(int num){
+        for (int i = 1; i <= num / i / i; i++) {
+            if (i * i * i == num) {
                 return true;
             }
         }
@@ -16,7 +12,7 @@ public class ValidSquare {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num=sc.nextInt();
-        ValidSquare vs=new ValidSquare();
+        ValidCube vs=new ValidCube();
         System.out.println(vs.isPerfectSquare(num));
         sc.close();
     }
